@@ -10,6 +10,7 @@ Matis Veilleux
 """
 
 import numpy as np
+import math
 
 def
 
