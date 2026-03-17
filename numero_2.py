@@ -11,3 +11,8 @@ Benjamin Grégoire
 Matis Veilleux
 """
 
+import numpy as np
+
+from numero_1 import calcul_billot
+
+donnees=np.loadtxt("donnees_billot.txt")
