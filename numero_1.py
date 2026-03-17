@@ -9,6 +9,8 @@ Benjamin Grégoire
 Matis Veilleux
 """
 
-salut
+import numpy as np
+
+def
 
 
