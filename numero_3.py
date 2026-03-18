@@ -3,6 +3,10 @@
 
 Devoir 3 numéro 2
 
+Voici une fonction servant à calculer le coefficient de friction d'un
+écoulement d'un fluide à l'aide de l'équation de Colebrooke et d'une méthode
+itérative. Les paramètres d'entrées sont décrits plus bas.
+
 20 mars 2026
 
 Justin Léveillé
