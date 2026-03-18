@@ -16,3 +16,15 @@ import numpy as np
 from numero_1 import calcul_billot
 
 donnees=np.loadtxt("donnees_billot.txt")
+
+l_tot_billot=donnees[:,0]
+l_submerge_billot=donnees[:,1]
+d_billot=donnees[:,2]
+rho_eau=donnees[:,3]
+pression=donnees[:,4]
+
+tableau_resultat=[calcul_billot(l_tot_billot,l_submerge_billot,d_billot,rho_eau,pression)]
+
+resultats=np.array(tableau_resultat)
+
+#np.savetxt("numero_2.py",resultats)
