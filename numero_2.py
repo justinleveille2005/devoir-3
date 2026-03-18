@@ -29,6 +29,12 @@ pression=donnees[:,4]
 
 tableau_resultat=[calcul_billot(l_tot_billot,l_submerge_billot,d_billot,rho_eau,pression)]
 
-resultats=np.array(tableau_resultat)
+resultats1=np.array(tableau_resultat)
 
-#np.savetxt("numero_2.py",resultats)
+resultats2=resultats1[0,:,:]
+
+resultat_final=np.transpose(resultats2)
+
+np.savetxt("numero_2.py",resultat_final)
+
+print(resultat_final)
