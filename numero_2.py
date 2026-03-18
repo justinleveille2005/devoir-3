@@ -4,6 +4,10 @@
 
 Devoir 3 numéro 2
 
+Voici un script servant à calculer le poids spécifique du billot, la tension 
+dans la corde retenant le billot et l'angle du celui-ci avec l'horizontal grâce
+à la fonction du numéro 1.
+
 20 mars 2026
 
 Justin Léveillé
